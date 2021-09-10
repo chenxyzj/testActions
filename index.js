@@ -1,7 +1,5 @@
 const express = require("express");
-
 const APPID = 1111;  //process.env.APPID;
-
 const app = express();
 
 app.get("/",(req,res) => 
