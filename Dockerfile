@@ -4,4 +4,4 @@ COPY . /usr/src
 WORKDIR /usr/src
 RUN npm i
 EXPOSE 80
-CMD ["node","app.js"]
+CMD ["node","index.js"]
